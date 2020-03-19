@@ -24,7 +24,7 @@ In all the three algorithms I used w0 and w1 (with w0 < w1) as periods of cycles
 In order to feed the LSTM, I had to change the shape of inputs from 2D to 3D. The third dimension is the **sequence lenght** which corresponds to the time window to consider for each single prediction. 
 
 ### CNN
-In order to apply a CNN I had to transform the time series into images using **Recurrence Plots**, read this [article]([https://towardsdatascience.com/remaining-life-estimation-with-keras-2334514f9c61](https://towardsdatascience.com/remaining-life-estimation-with-keras-2334514f9c61)) for more information.
+In order to apply a CNN I had to transform the time series into images using **Recurrence Plots**, read this [article](https://towardsdatascience.com/remaining-life-estimation-with-keras-2334514f9c61) for more information.
 
 ## Addiotional information
 Don't estitate to write me for more information: donato.maragno.da@gmail.com
